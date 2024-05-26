@@ -12,7 +12,7 @@ hist_button = st.button('Construir histograma')
 scatter_button = st.button('Construir gráfico de dispersión')
 
 # Manejar el evento del botón de histograma
-if hist_button:
+if hist_button and show_hist:
     st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
     fig_hist = px.histogram(car_data, x="odometer")
     st.plotly_chart(fig_hist, use_container_width=True)
