@@ -2,3 +2,4 @@
 Este es el ejercicio final del sprint 5
 La función de esta app es crear dos graficas de visualización con la creación de dos botones, uno para hacer un histograma y el otro para hacer una gráfica de dispersión
 
+Se anexa la URL como es solicitado https://proyecto-sprint-5-1.onrender.com 
